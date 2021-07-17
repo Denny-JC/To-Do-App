@@ -50,6 +50,35 @@ npx react-native init "To-Do-App"
     npm react-native link
 ```
 
-@element {
-  font-size: 75;
-}
+We are using Stack and Tab Navigation to navigate around the screens.
+
+For Tab Navigation, We are using 2 Tabs, Home and Settings.
+
+For Stack Navigation, We are using complex structures which is shown one by one.
+
+Entry Tab.
+
+![a](https://user-images.githubusercontent.com/84028364/126043341-38121481-580f-45a3-8349-c994132fc38d.jpg)
+
+This is the Entry Tab, Logo has been provided along with a background Icon. The button navigates to the second tab, The Task Form.
+
+Task Form.
+
+![b](https://user-images.githubusercontent.com/84028364/126043343-22ff99bf-8f12-426b-a3dd-6082c17d1e25.jpg)
+
+This is the Task Form and the Logo is still there. An Alarm system is given whenever a task is entered without any text. The Submit Button stores the values in the upcoming Tab called TaskList. The Task Manager button navigates the app to the next Tab.
+
+Task List
+
+![d](https://user-images.githubusercontent.com/84028364/126043346-347a5d5d-e432-47bd-b866-2684b626b601.jpg)
+
+This is the Tab where the input tasks are stored. A delete icon is associated with the option to remove the tasks.
+
+Settings Tab.
+
+![c](https://user-images.githubusercontent.com/84028364/126043345-4c7c8b7e-f9a5-4256-81ca-1abda61b41a5.jpg)
+
+Here, the "Reach Me" button redirects the User to the developer's Profile and the About App Button shows the version of the App.
+
+
+
