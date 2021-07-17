@@ -10,16 +10,20 @@ This App is very straight forward. You can type in your important works in this 
 ![image](https://user-images.githubusercontent.com/84028364/126042770-1f31adf3-9164-41e5-bca9-de5db524d0dc.png)
 
 Building the App:
-The pre requiste for this App is knowledge in Javascript and setup of environment for Android emulator and React.
+The pre requisite for this App is knowledge in Javascript and setup of environment for Android emulator and React.
 You can follow it in 
 https://reactnative.dev/docs/environment-setup
 
 Steps:
 
-1. Type in the code below to initialize the 
+1. Type in the code below to initialize the App
 
 ```
 npx react-native init "To-Do-App"
+```
+To start Metro bundler
+```
+npx react-native run-android
 ```
 
 2. Install all the dependencies required for this App and link it.
@@ -64,7 +68,7 @@ This is the Entry Tab, Logo has been provided along with a background Icon. The 
 
 Task Form.
 
-![b](https://user-images.githubusercontent.com/84028364/126043343-22ff99bf-8f12-426b-a3dd-6082c17d1e25.jpg)
+![c](https://user-images.githubusercontent.com/84028364/126043345-4c7c8b7e-f9a5-4256-81ca-1abda61b41a5.jpg)
 
 This is the Task Form and the Logo is still there. An Alarm system is given whenever a task is entered without any text. The Submit Button stores the values in the upcoming Tab called TaskList. The Task Manager button navigates the app to the next Tab.
 
@@ -76,9 +80,20 @@ This is the Tab where the input tasks are stored. A delete icon is associated wi
 
 Settings Tab.
 
-![c](https://user-images.githubusercontent.com/84028364/126043345-4c7c8b7e-f9a5-4256-81ca-1abda61b41a5.jpg)
+![b](https://user-images.githubusercontent.com/84028364/126043343-22ff99bf-8f12-426b-a3dd-6082c17d1e25.jpg)
 
 Here, the "Reach Me" button redirects the User to the developer's Profile and the About App Button shows the version of the App.
 
 
+The Youtube Link is Provided:
+```
+https://youtu.be/3fif1K888j8 
+```
+
+
+Further Work:
+
+1. Light Mode and Dark Mode can be switched for better user experience.
+2. Input Time and Date along with Alarm system to remind the Users of their works.
+3. Including Username database to access the works in multiple devices.
 
